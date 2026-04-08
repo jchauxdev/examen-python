@@ -32,7 +32,7 @@ Si deseas probar o modificar la aplicación en tu propia máquina, sigue estos p
    ```bash
    git clone [https://github.com/jchauxdev/examen-python.git](https://github.com/jchauxdev/examen-python.git)
    cd TU_REPOSITORIO
-   ```bash
+   exit
 
 **☁️ Despliegue en Streamlit Community Cloud (Gratis)**
 
