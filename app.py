@@ -29,7 +29,7 @@ banco_preguntas = [
         "titulo": "Procesamiento de Cadenas de ADN",
         "contexto": 'Secuencia extraída:\n`dna = "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"`',
         "mision": "Cuenta cuántas veces aparece la letra 'C' y cuántas veces aparece la letra 'G'. Multiplica ambos resultados.",
-        "respuesta": 192
+        "respuesta": 204
     },
     {
         "titulo": "Distancia Máxima en Clústeres",
