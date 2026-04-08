@@ -95,7 +95,7 @@ banco_preguntas = [
         "titulo": "Detección de Subcadenas Repetidas",
         "contexto": 'Log binario:\n`binario = "101100101010011010101110"`',
         "mision": "Usando el método de conteo de strings, ¿cuántas veces aparece el patrón exacto '101' en esta cadena? (Nota: asume el comportamiento normal de .count(), sin solapamientos).",
-        "respuesta": 6
+        "respuesta": 4
     }
 ]
 
