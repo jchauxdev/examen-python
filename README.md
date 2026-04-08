@@ -32,8 +32,9 @@ Si deseas probar o modificar la aplicación en tu propia máquina, sigue estos p
    ```bash
    git clone [https://github.com/jchauxdev/examen-python.git](https://github.com/jchauxdev/examen-python.git)
    cd TU_REPOSITORIO
+   ```bash
 
-## ☁️ Despliegue en Streamlit Community Cloud (Gratis)
+**☁️ Despliegue en Streamlit Community Cloud (Gratis)**
 
 Para que tus estudiantes puedan acceder a la evaluación desde cualquier navegador sin instalar nada, la mejor opción es alojar la aplicación en Streamlit Community Cloud. Es un proceso gratuito y toma menos de 5 minutos.
 
