@@ -24,17 +24,7 @@ Esta evaluación cubre los fundamentos del Procesamiento de Datos para Inteligen
 * Tipado y Casting (`int`, `float`, `str`).
 * Operaciones matemáticas (sumatorias, promedios, librería `math`).
 
-## 🚀 Instalación y Ejecución Local
-
-Si deseas probar o modificar la aplicación en tu propia máquina, sigue estos pasos:
-
-**Clona este repositorio:**
-   ```bash
-   git clone [https://github.com/jchauxdev/examen-python.git](https://github.com/jchauxdev/examen-python.git)
-   cd TU_REPOSITORIO
-   exit
-
-**☁️ Despliegue en Streamlit Community Cloud (Gratis)**
+## ☁️ Despliegue en Streamlit Community Cloud (Gratis)**
 
 Para que tus estudiantes puedan acceder a la evaluación desde cualquier navegador sin instalar nada, la mejor opción es alojar la aplicación en Streamlit Community Cloud. Es un proceso gratuito y toma menos de 5 minutos.
 
@@ -63,3 +53,12 @@ Para que tus estudiantes puedan acceder a la evaluación desde cualquier navegad
 * Verás una pantalla de carga con "globos" mientras el servidor instala Python y levanta tu aplicación. Esto toma alrededor de 1 a 2 minutos la primera vez.
 * Una vez finalizado, la aplicación aparecerá en tu pantalla.
 * **Copia la URL de tu navegador** y compártela con tus aprendices. ¡Ya pueden empezar la evaluación!
+
+## 🚀 Instalación y Ejecución Local
+
+Si deseas probar o modificar la aplicación en tu propia máquina, sigue estos pasos:
+
+**Clona este repositorio:**
+   ```bash
+   git clone [https://github.com/jchauxdev/examen-python.git](https://github.com/jchauxdev/examen-python.git)
+   cd TU_REPOSITORIO
