@@ -127,11 +127,44 @@ elif st.session_state.nivel == 4:
             st.error("Llave incorrecta. Revisa cómo estás iterando los valores del diccionario.")
 
 # --- PANTALLA FINAL ---
+# --- PANTALLA FINAL ---
 elif st.session_state.nivel == 5:
     st.header("🎉 ¡Misión Cumplida!")
     st.success("Has recuperado el dataset de Inteligencia Artificial perdido y demostrado tu dominio en Python.")
-    st.write("Por favor, levanta la mano o avisa al instructor para registrar tu calificación de 5.0.")
     
+    # 1. Pedir el nombre del estudiante para el certificado
+    st.write("Genera tu comprobante para enviarlo al instructor:")
+    nombre_estudiante = st.text_input("Ingresa tu nombre completo:")
+    
+    if nombre_estudiante:
+        # 2. Crear el texto que irá dentro del archivo descargable
+        texto_certificado = f"""
+        ====================================================
+        CERTIFICADO DE MISIÓN CUMPLIDA - ESCAPE ROOM PYTHON
+        ====================================================
+        
+        Estudiante: {nombre_estudiante}
+        Estado: APROBADO (5.0)
+        Misiones completadas:
+        - Sala 1: Variables, Casting y Operaciones Aritméticas
+        - Sala 2: Ciclos For, Listas y Condicionales
+        - Sala 3: Ciclos While y Librería Math
+        - Sala 4: Diccionarios y Funciones Nativas
+        
+        ¡El dataset ha sido recuperado con éxito!
+        ====================================================
+        """
+        
+        # 3. Mostrar el botón de descarga
+        st.download_button(
+            label="📄 Descargar Certificado de Aprobación",
+            data=texto_certificado,
+            file_name=f"Certificado_Python_{nombre_estudiante.replace(' ', '_')}.txt",
+            mime="text/plain",
+            type="primary"
+        )
+    
+    st.markdown("---")
     if st.button("Reiniciar Evaluación"):
         st.session_state.nivel = 1
         st.rerun()
