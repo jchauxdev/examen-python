@@ -66,7 +66,7 @@ Ejecutar la aplicación localmente convierte la computadora del instructor en el
 **Clona este repositorio:**
    ```bash
    git clone [https://github.com/jchauxdev/examen-python.git](https://github.com/jchauxdev/examen-python.git)
-```markdown
+  ```
 
 2. Abre una terminal (CMD, PowerShell o la terminal de VS Code) y navega hasta esa carpeta:
    ```bash
