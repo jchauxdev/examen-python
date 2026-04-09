@@ -65,12 +65,12 @@ Ejecutar la aplicación localmente convierte la computadora del instructor en el
 ### Paso 1: Preparar el Entorno
 **Clona este repositorio:**
     ```bash
-    git clone [https://github.com/jchauxdev/examen-python.git](https://github.com/jchauxdev/examen-python.git)
+    git clone https://github.com/jchauxdev/examen-python.git
     ```
 
 Abre una terminal (CMD, PowerShell o la terminal de VS Code) y navega hasta esa carpeta:
     ```bash
-    cd ruta/hacia/tu/carpeta
+    cd ruta_repo
     ```
 
 ### Paso 2: Instalar Dependencias
