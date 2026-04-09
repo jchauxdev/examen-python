@@ -1,0 +1,6 @@
+DATA ADMIN
+URL: http://localhost:8501/?admin=true
+contraseña (SENA2026)
+
+DATA USER
+URL: http://localhost:8501/
