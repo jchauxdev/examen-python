@@ -24,6 +24,8 @@ Esta evaluación cubre los fundamentos del Procesamiento de Datos para Inteligen
 * Tipado y Casting (`int`, `float`, `str`).
 * Operaciones matemáticas (sumatorias, promedios, librería `math`).
 
+---
+
 ## ☁️ Despliegue en Streamlit Community Cloud (Gratis)**
 
 Para que tus estudiantes puedan acceder a la evaluación desde cualquier navegador sin instalar nada, la mejor opción es alojar la aplicación en Streamlit Community Cloud. Es un proceso gratuito y toma menos de 5 minutos.
