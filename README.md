@@ -54,13 +54,20 @@ Para que tus estudiantes puedan acceder a la evaluación desde cualquier navegad
 * Una vez finalizado, la aplicación aparecerá en tu pantalla.
 * **Copia la URL de tu navegador** y compártela con tus aprendices. ¡Ya pueden empezar la evaluación!
 
-## 🚀 Instalación y Ejecución Local
+---
 
-Si deseas probar o modificar la aplicación en tu propia máquina, sigue estos pasos:
+## 🚀 Instalación y Ejecución Local (Recomendado para el Aula)
 
+Ejecutar la aplicación localmente convierte la computadora del instructor en el servidor del examen. Esto garantiza estabilidad total, evita caídas por servidores externos y no requiere internet de alta velocidad en el salón.
+
+### Paso 1: Preparar el Entorno
 **Clona este repositorio:**
    ```bash
    git clone [https://github.com/jchauxdev/examen-python.git](https://github.com/jchauxdev/examen-python.git)
    cd TU_REPOSITORIO
 
+### Paso 2: Instalar Dependencias
+Asegúrate de tener Python instalado. Luego, instala la librería requerida:
 
+    ```bash
+    pip install streamlit
