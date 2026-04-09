@@ -54,7 +54,8 @@ Para que tus estudiantes puedan acceder a la evaluación desde cualquier navegad
 ### Paso 4: ¡Listo para la clase!
 * Verás una pantalla de carga con "globos" mientras el servidor instala Python y levanta tu aplicación. Esto toma alrededor de 1 a 2 minutos la primera vez.
 * Una vez finalizado, la aplicación aparecerá en tu pantalla.
-* **Copia la URL de tu navegador** y compártela con tus aprendices. ¡Ya pueden empezar la evaluación!
+* Comparte la URL pública con tus estudiantes (ej. https://tu-app.streamlit.app).
+* Para ti como instructor: Ingresa a https://tu-app.streamlit.app/?admin=true para activar tu panel de control oculto.
 
 ---
 
@@ -74,5 +75,19 @@ Abre una terminal (CMD, PowerShell o la terminal de VS Code) y navega hasta esa 
 ### Paso 2: Instalar Dependencias
 Asegúrate de tener Python instalado. Luego, instala la librería requerida:
 
-    pip install streamlit
+    pip install -r requeriments.txt
+
+### Paso 3: Iniciar el Servidor del Examen
+Ejecuta el siguiente comando para levantar la aplicación:
+
+    streamlit run app.py
+
+###  Paso 4: ¿Cómo se conectan los Estudiantes vs El Instructor?
+Al ejecutar el comando, la terminal te mostrará dos URLs (Local y Network). La clave está en cómo usarlas:
+
+* 👨‍🎓 Para los Aprendices (Acceso al Examen): Entrégales la Network URL limpia (ej. http://192.168.x.x:8501). Ellos verán la pantalla de espera sin ningún panel de control.
+
+* 👨‍🏫 Para el Instructor (Panel de Control): Usa la Local URL y agrégale el parámetro secreto /?admin=true al final. Quedará así: http://localhost:8501/?admin=true. Al usar este enlace, te aparecerá el panel lateral para ingresar la contraseña y habilitar la prueba.
+
+⚠️ IMPORTANTE: Para que la Network URL funcione, tanto el servidor (tu PC) como los aprendices deben estar conectados a la misma red Wi-Fi o LAN.
 
