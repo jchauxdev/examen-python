@@ -64,11 +64,13 @@ Ejecutar la aplicación localmente convierte la computadora del instructor en el
 
 ### Paso 1: Preparar el Entorno
 **Clona este repositorio:**
+
     ```
     git clone https://github.com/jchauxdev/examen-python.git
     ```
 
 Abre una terminal (CMD, PowerShell o la terminal de VS Code) y navega hasta esa carpeta:
+
     ```
     cd ruta_repo
     ```
